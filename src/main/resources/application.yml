@@ -1,0 +1,13 @@
+# See http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+spring:
+  thymeleaf.cache: false
+  main.show-banner: false
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: Gmailアカウント
+    password: Gmailパスワード
+    properties:
+      mail.smtp:
+        auth: true
+        starttls.enable: true
